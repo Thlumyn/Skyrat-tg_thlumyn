@@ -7112,6 +7112,8 @@
 #include "modular_skyrat\modules\drones_derelict\code\areas.dm"
 #include "modular_skyrat\modules\drones_derelict\code\space.dm"
 #include "modular_skyrat\modules\electric_welder\code\electric_welder.dm"
+#include "modular_skyrat\modules\elilstation\code\cervimorph\cervimorph.dm"
+#include "modular_skyrat\modules\elilstation\code\cervimorph\cervimorph_ai.dm"
 #include "modular_skyrat\modules\emergency_spacesuit\code\emergency_spacesuit.dm"
 #include "modular_skyrat\modules\emote_panel\code\emote_panel.dm"
 #include "modular_skyrat\modules\emotes\code\dna_screams.dm"
