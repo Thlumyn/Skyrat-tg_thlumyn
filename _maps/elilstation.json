@@ -1,13 +1,36 @@
 {
 	"version": 1,
-	"map_name": "Elil Station",
+	"map_name": "SongbirdStation",
 	"map_path": "map_files/ElilStation",
-	"map_file": "ElilStation.dmm",
+	"map_file": "ElilStation2.dmm",
 	"planetary": 1,
 	"shuttles": {
 		"cargo": "cargo_skyrat",
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_box",
 		"emergency": "emergency_box"
-	}
+	},
+	"traits": [
+		{
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/misc/sandy_dirt/forest",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/openspace/forest",
+			"No Parallax": true
+		},
+		{
+			"Linkage": "Cross",
+			"Gravity": false,
+			"Baseturf": "/turf/open/open/space",
+			"No Parallax": false
+		}
+	],
+	"minetype": "lavaland"
 }
