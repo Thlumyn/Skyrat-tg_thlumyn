@@ -2,24 +2,22 @@
 	weighted_open_turf_types = list(/turf/open/misc/asteroid/forest = 1)
 	weighted_closed_turf_types = list(/turf/closed/mineral/random/forest = 1)
 
-
 	weighted_mob_spawn_list = list(
-		/mob/living/basic/mining/goldgrub = 10,
-		/mob/living/basic/mining/wolf = 10,
+		/mob/living/basic/mining/goldgrub = 1,
 		/mob/living/basic/mining/cervimorph = 30,
-		/mob/living/basic/deer = 50,
+		/mob/living/basic/deer/mining = 50,
 		///obj/structure/spawner/ice_moon = 3,
 	)
 	weighted_flora_spawn_list = list(
 		/obj/structure/flora/ash/fireblossom = 2,
-		/obj/structure/flora/grass/jungle/a/style_random = 10,
-		/obj/structure/flora/grass/jungle/b/style_random = 20,
-		/obj/structure/flora/bush/jungle/a/style_random = 5,
-		/obj/structure/flora/bush/jungle/b/style_random = 5,
-		/obj/structure/flora/bush/jungle/c/style_random = 5,
+		/obj/structure/flora/grass/jungle/a/style_random = 30,
+		/obj/structure/flora/grass/jungle/b/style_random = 40,
+		/obj/structure/flora/bush/jungle/a/style_random = 10,
+		/obj/structure/flora/bush/jungle/b/style_random = 10,
+		/obj/structure/flora/bush/jungle/c/style_random = 10,
 		/obj/structure/flora/rock/pile/jungle/style_random = 5,
-		/obj/structure/flora/rock/pile/jungle/large/style_random = 3,
-		/obj/structure/flora/tree/jungle/style_random = 10,
+		/obj/structure/flora/rock/pile/jungle/large/style_random = 2,
+		/obj/structure/flora/tree/jungle/style_random = 30,
 	)
 	///Note that this spawn list is also in the lavaland generator
 	weighted_feature_spawn_list = list(
