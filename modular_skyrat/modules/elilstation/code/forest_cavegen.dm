@@ -10,14 +10,15 @@
 	)
 	weighted_flora_spawn_list = list(
 		/obj/structure/flora/ash/fireblossom = 2,
-		/obj/structure/flora/grass/jungle/a/style_random = 30,
-		/obj/structure/flora/grass/jungle/b/style_random = 40,
-		/obj/structure/flora/bush/jungle/a/style_random = 10,
-		/obj/structure/flora/bush/jungle/b/style_random = 10,
-		/obj/structure/flora/bush/jungle/c/style_random = 10,
-		/obj/structure/flora/rock/pile/jungle/style_random = 5,
-		/obj/structure/flora/rock/pile/jungle/large/style_random = 2,
-		/obj/structure/flora/tree/jungle/style_random = 30,
+		/obj/structure/flora/grass/jungle/a/style_random = 15,
+		/obj/structure/flora/grass/jungle/b/style_random = 30,
+		/obj/structure/flora/bush/jungle/a/style_random = 5,
+		/obj/structure/flora/bush/jungle/b/style_random = 5,
+		/obj/structure/flora/bush/jungle/c/style_random = 5,
+		/obj/structure/flora/rock/pile/jungle/style_random = 3,
+		/obj/structure/flora/rock/pile/jungle/large/style_random = 1,
+		/obj/structure/flora/tree/jungle/style_random = 7,
+		/obj/structure/flora/tree/jungle/small/style_random = 3,
 	)
 	///Note that this spawn list is also in the lavaland generator
 	weighted_feature_spawn_list = list(
@@ -29,7 +30,7 @@
 	)
 
 /datum/map_generator/cave_generator/forest
-	flora_spawn_chance = 4
+	flora_spawn_chance = 35
 	weighted_mob_spawn_list = null
 	initial_closed_chance = 53
 	birth_limit = 5
