@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"map_name": "Elil Station",
+	"map_path": "map_files/ElilStation",
+	"map_file": "ElilStation.dmm",
+	"planetary": 1,
+	"shuttles": {
+		"cargo": "cargo_skyrat",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	}
+}
