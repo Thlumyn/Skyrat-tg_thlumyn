@@ -83,6 +83,14 @@
 		/obj/item/stack/ore/uranium = 5,
 	)
 
+/turf/open/floor/engine/hull/reinforced/planetary
+	desc = "Sturdy exterior hull plating that separates you from the outside world"
+	initial_gas_mix = FOREST_DEFAULT_ATMOS
+
+/turf/open/floor/engine/hull/planetary
+	desc = "Sturdy exterior hull plating that separates you from the outside world."
+	initial_gas_mix = FOREST_DEFAULT_ATMOS
+
 ///here for reference
 
 /*
