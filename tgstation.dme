@@ -7115,6 +7115,7 @@
 #include "modular_skyrat\modules\electric_welder\code\electric_welder.dm"
 #include "modular_skyrat\modules\elilstation\code\areas.dm"
 #include "modular_skyrat\modules\elilstation\code\atmosphere.dm"
+#include "modular_skyrat\modules\elilstation\code\items.dm"
 #include "modular_skyrat\modules\elilstation\code\forest_cavegen.dm"
 #include "modular_skyrat\modules\elilstation\code\turfs.dm"
 #include "modular_skyrat\modules\elilstation\code\mobs\cervimorph.dm"
